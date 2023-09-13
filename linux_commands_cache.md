@@ -23,3 +23,9 @@ Clean old packages in cache: `pacman -Sc`
 3. Untar package: `tar xzvf <package.tar.gz>`
 4. Change into package directory: `cd <package>`
 5. Build and install: `makepkg -si`
+
+> #### Arch linux specific commands (java environments)
+
+Check status: `archlinux-java status`
+
+Set default version: `archlinux-java set <version>`

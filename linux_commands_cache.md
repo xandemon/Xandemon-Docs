@@ -29,3 +29,25 @@ Clean old packages in cache: `pacman -Sc`
 Check status: `archlinux-java status`
 
 Set default version: `archlinux-java set <version>`
+
+> #### Basic must-know linux commands
+
+Find path of current working directory: `pwd`
+
+Change directory to home: `cd` or `cd ~`
+
+Change directory one step back: `cd ..`
+
+Change directory any particular location: `cd <path_of_the_location>`
+
+List files and directories: `ls`, `ls -a`, `ls -R`
+
+Copy file between locations: `cp <path_of_source_file> <path_of_destination_dir>`
+
+Move file between locations: `mv <path_of_source_file> <path_of_destination_dir>`
+
+Create new folder: `mkdir <directory_name>`
+
+Delete file or directory: `rm -rf <file_or_folder_name>`
+
+View your terminal commands history: `sudo history`

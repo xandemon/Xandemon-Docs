@@ -16,6 +16,12 @@ Create new branch from existing local branch: `git checkout -b <existing_branch_
 
 Create new branch from a remote branch: `git checkout <remote_branch_name>`
 
+Undo last local commit by preserving changes: `git reset --soft HEAD~1`
+
+Undo last local commit by discarding changes: `git reset --hard HEAD ~1`
+
+Undo last n local commits: `git reset --soft HEAD~n`
+
 Force replace remote branch with local branch: `git push --force <remote> <branch>`
 
 Force replace remote branch with local branch upto specified commit: `git push -f [origin] [commit_hash]:[feat/ssrReady]`

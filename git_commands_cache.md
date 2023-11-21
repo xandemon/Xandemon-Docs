@@ -2,6 +2,8 @@
 
 Initialize any local folder as a local git repository: `git init`
 
+Change initial branch while creating new repositories: `git config --global init.defaultBranch <branch_name>`
+
 Connect remote repo to your local git repo: `git remote add <remote_repo_alias> <remote_repo_link>`
 
 View all local branches: `git branch`
